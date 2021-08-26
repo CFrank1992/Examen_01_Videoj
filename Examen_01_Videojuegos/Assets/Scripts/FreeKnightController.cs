@@ -49,7 +49,7 @@ public class FreeKnightController : MonoBehaviour
             //Correr
             if(Input.GetKey(KeyCode.X))
                 {
-                    rb.velocity = new Vector2(velocityX, rb.velocity.y);
+                    rb.velocity = new Vector2((velocityX * 2), rb.velocity.y);
                     changeAnimation(ANIMATION_RUN);
                 }
         }
@@ -64,7 +64,7 @@ public class FreeKnightController : MonoBehaviour
             //Correr
             if(Input.GetKey(KeyCode.X))
                 {
-                    rb.velocity = new Vector2(-velocityX, rb.velocity.y);
+                    rb.velocity = new Vector2((-velocityX * 2), rb.velocity.y);
                     changeAnimation(ANIMATION_RUN);
                 }
         }
