@@ -176,7 +176,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -219,11 +219,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3577684554854651348, guid: 0cdc4f912143271458cecf55f647ebc9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.32
+      value: -11.5
       objectReference: {fileID: 0}
     - target: {fileID: 3577684554854651348, guid: 0cdc4f912143271458cecf55f647ebc9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.34
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 3577684554854651348, guid: 0cdc4f912143271458cecf55f647ebc9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -257,6 +257,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3577684554854651351, guid: 0cdc4f912143271458cecf55f647ebc9, type: 3}
+      propertyPath: jumpForce
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577684554854651351, guid: 0cdc4f912143271458cecf55f647ebc9, type: 3}
+      propertyPath: velocityX
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577684554854651352, guid: 0cdc4f912143271458cecf55f647ebc9, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577684554854651352, guid: 0cdc4f912143271458cecf55f647ebc9, type: 3}
+      propertyPath: m_GravityScale
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 3577684554854651353, guid: 0cdc4f912143271458cecf55f647ebc9, type: 3}
       propertyPath: m_Name
       value: FreeKnight
@@ -279,12 +295,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6232551015670509413, guid: 6f445fac5022ba944a3fb2ee6bcd7cd3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 32.709763
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232551015670509413, guid: 6f445fac5022ba944a3fb2ee6bcd7cd3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.05
+      value: -1.138
       objectReference: {fileID: 0}
     - target: {fileID: 6232551015670509413, guid: 6f445fac5022ba944a3fb2ee6bcd7cd3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.87
+      value: -6.7
       objectReference: {fileID: 0}
     - target: {fileID: 6232551015670509413, guid: 6f445fac5022ba944a3fb2ee6bcd7cd3, type: 3}
       propertyPath: m_LocalPosition.z
